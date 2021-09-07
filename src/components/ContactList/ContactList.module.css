@@ -1,0 +1,28 @@
+.contact_list {
+  padding: 5px;
+  margin: 0 auto;
+  width: 350px;
+}
+
+.contact_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 8px;
+}
+
+.contact_item:nth-child(odd) {
+  background-color: rgba(182, 174, 174, 0.644);
+}
+
+.del_btn {
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(121, 170, 137);
+}
+
+.del_btn:hover {
+  background-color: rgb(252, 159, 159);
+}
